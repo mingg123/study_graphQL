@@ -1,0 +1,23 @@
+{
+  "name": "MOVIEQL",
+  "version": "1.0.0",
+  "description": "Movie API with grapQL",
+  "main": "index.js",
+  "repository": "https://github.com/mingg123/study_graphQL.git",
+  "author": "mingg123",
+  "license": "MIT",
+  "dependencies": {
+    "add": "^2.0.6",
+    "babel-cli": "^6.26.0",
+    "global": "^4.4.0",
+    "graphql-yoga": "^1.18.3"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "babel-node": "^0.0.1-security",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}
