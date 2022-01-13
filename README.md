@@ -29,3 +29,20 @@ react-apollo, GraphQL, Typescript
 GraphQL, GraphQL yoga
 
 ```
+
+
+# start
+
+```
+cd $MOVIEQL 이후 yarn start : graphql 서버 실행 localhost:4000
+
+yarn start : 프론트엔드 실행 
+
+```
+
+# Ref
+
+```
+https://www.youtube.com/watch?v=xtcw9YAgVJM
+
+```
