@@ -2,6 +2,8 @@
 
 ```
 Apollo & GraphQL로 영화 웹 만들기 
+GraphQL 학습을 위한 프로젝트
+Store 사용 
 
 ```
 
