@@ -3,22 +3,21 @@ import React from "react";
 import { OperationVariables, Query, QueryResult } from "react-apollo";
 import { Link } from "react-router-dom";
 import { HOME_PAGE } from "./queries";
+import { addAllMovie, Movie } from "./stores/movies";
 
-interface movies {
-  id: number;
-  title: String;
-  rating: number;
-  medium_cover_image: string;
-}
 //stateless component
 //컴포넌트안에 함수를 넣음.
 const Home = () => {
+  const addMovie = (movie: Movie[]) => {
+    addAllMovie(movie);
+  };
   return (
     <Query query={HOME_PAGE}>
       {({ loading, data, error }: QueryResult<any, OperationVariables>) => {
         if (data) {
-          console.log(data);
-          return data.movies.map((movie: movies) => (
+          // console.log(data);
+          addMovie(data.movies as Movie[]);
+          return data.movies.map((movie: Movie) => (
             <Link
               style={{ textDecoration: "none", color: "black" }}
               to={`/details/${movie.id}`}
