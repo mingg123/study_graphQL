@@ -7,6 +7,12 @@ Store 사용
 
 ```
 
+# Explain
+
+```
+https://big-frown-d91.notion.site/86fca6c0f75744ada0ec97347e80a16d
+```
+
 # Example
 
 ![image](https://user-images.githubusercontent.com/52990629/149285130-f662cb79-da50-43b4-89b8-906255bc62c9.png)
